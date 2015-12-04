@@ -1,0 +1,34 @@
+body{
+background-color:#eaeaea;
+color:#333;
+font-family: 'Cousine', ;
+padding-top:200px;
+padding-left:200px;
+letter-spacing:2px;
+}
+
+a{
+color:#3eb489;
+text-decoration:none;
+margin-top:200px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+
+body{
+
+padding-top:100px;
+padding-left:15%;    
+padding-right:15%;    
+    
+}      
+      
+  }
