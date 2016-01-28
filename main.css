@@ -31,9 +31,6 @@ transition:all .3s ease;
     
 }
 
-a:nth-child(2n+0):hover  {
-background-color:#BAC3C1;
-}
 
 a:active{
 color:white;
