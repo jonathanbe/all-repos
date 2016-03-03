@@ -29,14 +29,16 @@ background-image: -webkit-gradient(
 	linear,
 	right bottom,
 	left bottom,
-	color-stop(0, #FF406D),
-	color-stop(1, #FFA1B9)
+	color-stop(0, #FFA1B9),
+	color-stop(1, #FF406D)
 );
-background-image: -o-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
-background-image: -moz-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
-background-image: -webkit-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
-background-image: -ms-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
-background-image: linear-gradient(to left, #FF406D 0%, #FFA1B9 100%);
+background-image: -o-linear-gradient(left, #FFA1B9 0%, #FF406D 100%);
+background-image: -moz-linear-gradient(left, #FFA1B9 0%, #FF406D 100%);
+background-image: -webkit-linear-gradient(left, #FFA1B9 0%, #FF406D 100%);
+background-image: -ms-linear-gradient(left, #FFA1B9 0%, #FF406D 100%);
+background-image: linear-gradient(to left, #FFA1B9 0%, #FF406D 100%);
+
+
 transition:all .3s ease;
 -webkit-transition:all .3s ease;
 -moz-transition:all .3s ease;
@@ -49,6 +51,19 @@ a:active{
 color:white;
 background-color:#ff5980;
 transition:none;
+
+background-image: -webkit-gradient(
+	linear,
+	right bottom,
+	left bottom,
+	color-stop(0, #FF406D),
+	color-stop(1, #FF406D)
+);
+background-image: -o-linear-gradient(left, #FF406D 0%, #FF406D 100%);
+background-image: -moz-linear-gradient(left, #FF406D 0%, #FF406D 100%);
+background-image: -webkit-linear-gradient(left, #FF406D 0%, #FF406D 100%);
+background-image: -ms-linear-gradient(left, #FF406D 0%, #FF406D 100%);
+background-image: linear-gradient(to left, #FF406D 0%, #FF406D 100%);
 -webkit-transition:all .3s ease;
 -moz-transition:all .3s ease;
 -o-transition:all .3s ease;
