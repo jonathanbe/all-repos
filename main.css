@@ -26,7 +26,7 @@ transition:all .3s ease;
 a:hover{
 color:white;
 /*background-color:#ff87a3;*/
-
+border-radius:5px;
 background-image: -webkit-gradient(
 	linear,
 	left top,
@@ -34,11 +34,11 @@ background-image: -webkit-gradient(
 	color-stop(0, #FF406D),
 	color-stop(1, #FC88A5)
 );
-background-image: -o-linear-gradient(bottom, #FF406D 0%, #FC88A5 100%);
-background-image: -moz-linear-gradient(bottom, #FF406D 0%, #FC88A5 100%);
-background-image: -webkit-linear-gradient(bottom, #FF406D 0%, #FC88A5 100%);
-background-image: -ms-linear-gradient(bottom, #FF406D 0%, #FC88A5 100%);
-background-image: linear-gradient(to bottom, #FF406D 0%, #FC88A5 100%);
+background-image: -o-linear-gradient(top, #FF406D 0%, #FC88A5 100%);
+background-image: -moz-linear-gradient(top, #FF406D 0%, #FC88A5 100%);
+background-image: -webkit-linear-gradient(top, #FF406D 0%, #FC88A5 100%);
+background-image: -ms-linear-gradient(top, #FF406D 0%, #FC88A5 100%);
+background-image: linear-gradient(to top, #FF406D 0%, #FC88A5 100%);
 
 
 transition:all .3s ease;
