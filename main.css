@@ -25,7 +25,7 @@ transition:all .3s ease;border-radius:5px;
 
 a:hover{
 color:white;
-background-color:#ff87a3;
+background-color:#ff7394;
 border-radius:5px;
 /*
 background-image: -webkit-gradient(
@@ -53,7 +53,6 @@ transition:all .3s ease;
 a:active{
 color:white;
 background-color:#ff5980;
-
 /*
 background-image: -webkit-gradient(
 	linear,
