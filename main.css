@@ -24,6 +24,19 @@ transition:all .3s ease;
 a:hover{
 color:white;
 background-color:#ff87a3;
+
+background-image: -webkit-gradient(
+	linear,
+	right bottom,
+	left bottom,
+	color-stop(0, #FF406D),
+	color-stop(1, #FFA1B9)
+);
+background-image: -o-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
+background-image: -moz-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
+background-image: -webkit-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
+background-image: -ms-linear-gradient(left, #FF406D 0%, #FFA1B9 100%);
+background-image: linear-gradient(to left, #FF406D 0%, #FFA1B9 100%);
 transition:all .3s ease;
 -webkit-transition:all .3s ease;
 -moz-transition:all .3s ease;
