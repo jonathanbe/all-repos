@@ -23,7 +23,7 @@ transition:all .3s ease;
 
 a:hover{
 color:white;
-background-color:#ff87a3;
+/*background-color:#ff87a3;*/
 
 background-image: -webkit-gradient(
 	linear,
